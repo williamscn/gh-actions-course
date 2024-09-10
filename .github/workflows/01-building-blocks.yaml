@@ -3,7 +3,7 @@ on:
   push
 jobs:
   echo-hello:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Failed step
         run:
